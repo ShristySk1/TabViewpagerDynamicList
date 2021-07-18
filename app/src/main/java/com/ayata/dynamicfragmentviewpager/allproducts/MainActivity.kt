@@ -19,7 +19,8 @@ class MainActivity : AppCompatActivity(), (MyServerDataItem) -> Unit {
             MyServerDataItem("cat2", 3, "orangejuice"),
             MyServerDataItem("cat3", 4, "vodka"),
             MyServerDataItem("cat1", 5, "pulse"),
-            MyServerDataItem("cat4", 6, "blanket")
+            MyServerDataItem("cat4", 6, "blanket"),
+            MyServerDataItem("cat4", 6, "pillowCase")
         )
     )
     val filteredData = servermodel2.data.groupBy { it.category }
